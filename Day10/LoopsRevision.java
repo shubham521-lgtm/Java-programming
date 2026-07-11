@@ -116,22 +116,49 @@ public class LoopsRevision {
 // }
 
 // Check whether a number is Armstrong.
+// int num = 153;
+// int original = num;
 
+// int sum = 0;
+
+// int a = num ;
+// int digits =0;
+// while (a !=0 ) {
+//      digits++;
+//      a /= 10;
+     
+// }
+// a = num;
+// while(a!=0){
+//     int digit = a%10;
+//     sum +=(int) Math.pow(digit,digits);
+//     a/=10;
+// }
+//    if (sum == original) {
+//             System.out.println(original + " is an Armstrong Number.");
+//         } else {
+//             System.out.println(original + " is not an Armstrong Number.");
+        // }
 // Print the Fibonacci series up to N terms.
+// int n = 10;
+
+// int a = 0;
+// int b = 1;
+//  for(int i = 1; i<=n; i++){
+   
+//     int c= a+b;
+//     a = b;
+//     b = c;
+//      System.out.println(a + " ");
+//  }
+
 // Find the factorial of a number.
-// Calculate a^b using loops.
-// Find the largest digit in a number.
-// Find the smallest digit in a number.
-// Hard Level
-// Check whether a number is Prime.
-// Print all prime numbers between 1 and N.
-// Find the HCF (GCD) of two numbers using loops.
-// Find the LCM of two numbers using loops.
-// Check whether a number is Perfect Number.
-// Check whether a number is Strong Number.
-// Check whether a number is Automorphic Number.
-// Check whether a number is Harshad (Niven) Number.
-// Print all Armstrong numbers between 1 and N.
-// Print all Perfect numbers between 1 and N
+int n = 10;
+int f = 1;
+for(int i = 1; i <=n; i++){
+    f = f*i;
+    System.out.println(f);
+}
+
     }
 }
