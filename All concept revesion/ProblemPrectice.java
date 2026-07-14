@@ -1,12 +1,12 @@
 // package All concept revesion;
-import java.util.Scanner;
+// import java.util.Scanner;
 public class ProblemPrectice {
     public static void main(String[] args) {
 //         🟢 Easy Level (20 Questions)
 // Print "Hello, Java".
 
 // System.out.println("HELLO SHUBHAM  UIKEY");
-Scanner scan = new Scanner(System.in);
+// Scanner scan = new Scanner(System.in);
 
 
 
@@ -415,52 +415,34 @@ Scanner scan = new Scanner(System.in);
 //     System.out.println("NOt an armstrong ");
 //    }
 // Check whether a number is a Strong number.
-int num = 145;
+// int num = 145;
  
-int original = num;
-  int factorial =1;
+// int original = num;
+//   int factorial =1;
 
    
-   int sum = 0;
-   int digit = 0;
-   while (num!=0) {
-   factorial =1;
+//    int sum = 0;
+//    int digit = 0;
+//    while (num!=0) {
+//    factorial =1;
 
-     digit = num%10;
+//      digit = num%10;
 
-     for(int i =1;i<=digit;i++){
-    factorial = factorial*i;
+//      for(int i =1;i<=digit;i++){
+//     factorial = factorial*i;
    
-   }
-   sum = sum + factorial;
-    num/=10;
+//    }
+//    sum = sum + factorial;
+//     num/=10;
 
    
-   }
+//    }
 
-   if(original==sum){
-    System.out.println("Number is strong");
-   }else{
-    System.out.println("NOt an strong ");
-   }
-// Check whether a number is a Perfect number.
-// Check whether a number is a Prime number.
-// Print all prime numbers between 1 and N.
-// Find the GCD (HCF) of two numbers.
-// Find the LCM of two numbers.
-// Check whether two numbers are co-prime.
-// Reverse a number without using an extra variable for the reverse logic.
-// Check whether a number is a Neon number.
-// Check whether a number is a Spy number.
-// Check whether a number is a Duck number.
-// Find the frequency of each digit in a number.
-// Remove all zeros from a number.
-// Print the factors of a number.
-// Count the factors of a number.
-// Find the sum of all factors.
-// Find the largest prime factor of a number.
-// Check whether a number is both a palindrome and an Armstrong number.
-// Print the Fibonacci series until the value exceeds N.
+//    if(original==sum){
+//     System.out.println("Number is strong");
+//    }else{
+//     System.out.println("NOt an strong ");
+//    }
 // 🔥 Mixed Practice Set (20 Questions)
 
 // Is set me kisi bhi concept ka question aa sakta hai.
