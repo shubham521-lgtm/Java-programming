@@ -19,8 +19,6 @@ public class Q04_SumOfRow {
 
  }
 
-// Print the transpose of a matrix.
-// Check whether two matrices are equal.
-// Add two 3 × 3 matrices.
+
     }
 }
