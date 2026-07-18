@@ -1,8 +1,7 @@
 public class Q01 {
 
     public static void main(String[] args) {
-//         1. Variables (10 Questions)
-// Easy
+
 
 // Q2. Store your name, age, and percentage in variables and print them.
 String name = "Shubham uikey";

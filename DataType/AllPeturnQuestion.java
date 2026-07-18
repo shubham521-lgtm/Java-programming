@@ -1,4 +1,4 @@
-package DataType;
+// package DataType;
 
 public interface AllPeturnQuestion {
     public static void main(String[] args) {
@@ -6,27 +6,29 @@ public interface AllPeturnQuestion {
 // Easy
 
 // Q1. Declare one variable of every primitive data type.
+int a = 30;
+short b = 20000; 
+long c = 10000000000l;
 
-// Q2. Print the size of each primitive data type.
+float d = 1.5f;
 
-// Q3. Store ASCII value of a character and print it.
+char ch = 'A';
 
-// Medium
+double e = 30.30;
+boolean f = true;
+byte g = 100;
 
-// Q4. Print the Unicode value of a character.
+System.out.println("byte = " + g);
+System.out.println("int = " + a);
+System.out.println("short = " + b);
+System.out.println("long = " + c);
+System.out.println("float = " + d);
+System.out.println("double = " + e);
+System.out.println("boolean = " + f);
+System.out.println("char = " + ch);
 
-// Q5. Store a decimal number in float and double and compare.
 
-// Q6. Store a large number using long.
 
-// Hard
 
-// Q7. Check overflow of byte.
-
-// Q8. Add int and double and print the result.
-
-// Q9. Store a character in an int variable and print its ASCII value.
-
-// Q10. Find the data type of the expression:
     }
 }
