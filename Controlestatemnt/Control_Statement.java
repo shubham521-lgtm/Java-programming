@@ -1,41 +1,46 @@
-package Controlestatemnt;
-
+// package Controlestatemnt;
+import java.util.Scanner;;
 public class Control_Statement {
     public static void main(String[] args) {
-//         Control Statements (10 Questions)
-// if-else
 
 // Q1. Check whether a number is positive or negative.
+// System.out.println("Enter an number ");
+// Scanner scan = new Scanner(System.in);
 
-// Q2. Find the largest of two numbers.
+// int num = scan.nextInt();
 
-// Q3. Find the largest of three numbers.
+// if (num >0){
+//     System.out.println("Number is posetive = "+num);
 
-// else-if
+// }else{
+//     System.out.println("Number is nagetive = " + num);
+// }
 
-// Q4. Print grades based on marks.
-
-// 90-100 = A
-// 80-89 = B
-// 70-79 = C
-// 60-69 = D
-// Below 60 = Fail
-// switch
-
-// Q5. Create a calculator using switch.
-
-// Q6. Print day name using day number.
 
 // Ternary Operator
 
-// Q7. Find the largest of two numbers using the ternary operator.
 
-// Q8. Check whether a number is even or odd using the ternary operator.
 
 // break & continue
 
 // Q9. Print numbers from 1–20 but stop when 12 comes.
+// for (int i = 1; i<=20; i++){
+//     System.out.println(i);
 
-// Q10. Print numbers from 1–20 but skip multiples of 3.
+//     if(i==12){
+//         break;
+//     }
+// }
+
+// Q10. Print numbers from 1–20 but skip multiples of 3
+for (int i = 1; i<=20; i++){
+
+    if(i %3==0){
+        continue;
+    }
+    System.out.println(i);
+
+}
+
     }
 }
