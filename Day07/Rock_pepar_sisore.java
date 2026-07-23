@@ -2,29 +2,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Rock_pepar_sisore {
     public static void main(String[] args) {
-        // Random rand = new Random();
-
-        // int num = rand.nextInt(3,5); // 3 to 5
-
-        // System.out.println("GAME NAME ROCK , PEPAR , SCISSOR");
-        //  System.out.println("Rendom Number");
-        // if(num == 3){
-        //     System.out.println("Rock");
-        // }
-        
-        // else if(num == 4){
-            
-        //     System.out.println("pepar");
-        // }
-        // else if( num ==5 ){
-
-        //     System.out.println("scissor");
-        // }
-
-
-
+    
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
 

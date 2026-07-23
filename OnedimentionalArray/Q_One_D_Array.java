@@ -1,4 +1,4 @@
-package OnedimentionalArray;
+// package OnedimentionalArray;
 
 public class Q_One_D_Array {
     public static void main(String[] args) {
@@ -7,26 +7,17 @@ public class Q_One_D_Array {
 
 // Q1. Print all array elements.
 
-// Q2. Find the sum of all elements.
+int [] arr = {54 , 66 , 98 , 77 , 76};
+System.out.print(arr[0] + " ");
+System.out.print(arr[1] + " "); 
 
-// Q3. Find the average.
+System.out.print(arr[2] + " ");
 
-// Medium
+System.out.print(arr[3] + " ");
 
-// Q4. Find the largest element.
+System.out.print(arr[4]); 
 
-// Q5. Find the smallest element.
 
-// Q6. Count even and odd elements.
 
-// Hard
-
-// Q7. Reverse the array.
-
-// Q8. Find the second largest element.
-
-// Q9. Search an element (Linear Search).
-
-// Q10. Sort the array in ascending order (without using Arrays.sort()).
     }
 }
