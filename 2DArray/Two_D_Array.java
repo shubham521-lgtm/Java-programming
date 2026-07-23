@@ -1,7 +1,7 @@
-package 2DArrl Array (10 Questions)
+// package 2DArrl Array (10 Questions)
 // Easy
 
-// Q1. Input and print a matrix.
+
 
 // Q2. Find the sum of all elements.
 
